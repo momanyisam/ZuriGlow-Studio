@@ -5,7 +5,7 @@
 
 // Replace this placeholder with the business's WhatsApp number.
 // Kenya example: 254712345678
-const BUSINESS_WHATSAPP = "254700000000";
+const BUSINESS_WHATSAPP = "254714098733";
 
 // Mobile navigation
 const menuToggle = document.getElementById("menuToggle");
