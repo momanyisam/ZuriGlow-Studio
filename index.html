@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ZuriGlow Studio | Your Beauty, Your Glow</title>
+
+    <meta name="description"
+          content="Discover beautiful nails, hairstyles, lashes and makeup at ZuriGlow Studio. Explore our services and request an appointment.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Announcement -->
+    <div class="announcement">
+        <p>YOUR BEAUTY, YOUR GLOW ✨</p>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                Zuri<span>Glow</span>
+                <small>BEAUTY STUDIO</small>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li>
+                    <a href="#booking" class="nav-book">Book Appointment</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">WELCOME TO ZURIGLOW STUDIO</span>
+
+                <h1>Beauty that makes you feel <span>extraordinary.</span></h1>
+
+                <p>
+                    From stunning nail art to flawless hairstyles and beautiful
+                    lashes, discover your glow with our carefully curated beauty services.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">
+                        Book Your Appointment ↗
+                    </a>
+
+                    <a href="#services" class="btn btn-outline">
+                        Explore Services
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="sparkle">✦</span>
+                    A little luxury. A lot of confidence.
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=85"
+                    alt="Beautiful manicure and nail art"
+                    fetchpriority="high">
+
+                <div class="image-badge">
+                    <span>✦</span>
+                    <div>
+                        <strong>Your beauty moment</strong>
+                        <small>Made just for you</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+        </section>
+
+        <!-- Trust strip -->
+        <section class="features">
+            <div class="feature">
+                <span>✧</span>
+                <p>Beauty & Style</p>
+            </div>
+
+            <div class="feature">
+                <span>♡</span>
+                <p>Personalized Care</p>
+            </div>
+
+            <div class="feature">
+                <span>✦</span>
+                <p>Made for You</p>
+            </div>
+
+            <div class="feature">
+                <span>❀</span>
+                <p>Your Confidence</p>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services section-padding" id="services">
+
+            <div class="section-heading">
+                <span class="eyebrow">WHAT WE OFFER</span>
+
+                <h2>A little something for <span>every beauty.</span></h2>
+
+                <p>
+                    Explore our beauty services and find the perfect style for your
+                    next special moment.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=700&q=80"
+                        alt="Nail art and manicure"
+                        loading="lazy">
+
+                    <div class="service-info">
+                        <span class="service-number">01 / NAILS</span>
+                        <h3>Nails & Nail Art</h3>
+                        <p>
+                            Acrylic nails, gel polish, manicures and creative nail designs.
+                        </p>
+                        <a href="#booking" class="service-link"
+                           data-service="Nails & Nail Art">
+                            Book this service ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80"
+                        alt="Professional hair styling"
+                        loading="lazy">
+
+                    <div class="service-info">
+                        <span class="service-number">02 / HAIR</span>
+                        <h3>Hair & Styling</h3>
+                        <p>
+                            Braids, wig installation, styling and beautiful hair transformations.
+                        </p>
+                        <a href="#booking" class="service-link"
+                           data-service="Hair & Styling">
+                            Book this service ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1583001931096-959e9a1a6223?auto=format&fit=crop&w=700&q=80"
+                        alt="Beauty and makeup products"
+                        loading="lazy">
+
+                    <div class="service-info">
+                        <span class="service-number">03 / MAKEUP</span>
+                        <h3>Makeup & Beauty</h3>
+                        <p>
+                            Enhance your natural beauty for celebrations, events and special occasions.
+                        </p>
+                        <a href="#booking" class="service-link"
+                           data-service="Makeup & Beauty">
+                            Book this service ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80"
+                        alt="Beauty products and cosmetics"
+                        loading="lazy">
+
+                    <div class="service-info">
+                        <span class="service-number">04 / LASHES</span>
+                        <h3>Lashes & Brows</h3>
+                        <p>
+                            Complete your look with beautiful lashes and well-shaped brows.
+                        </p>
+                        <a href="#booking" class="service-link"
+                           data-service="Lashes & Brows">
+                            Book this service ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section-padding" id="about">
+
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=900&q=85"
+                    alt="Beauty and self-care inspiration"
+                    loading="lazy">
+
+                <div class="about-stamp">
+                    BEAUTY<br>BEGINS<br>WITH YOU
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="eyebrow">THE ZURIGLOW EXPERIENCE</span>
+
+                <h2>It's more than beauty. <span>It's how you feel.</span></h2>
+
+                <p>
+                    We believe beauty is personal. Every style is an opportunity
+                    to express yourself, celebrate your individuality and leave
+                    feeling more confident.
+                </p>
+
+                <p>
+                    Whether you want a fresh set of nails, a new hairstyle or
+                    a complete beauty look, your next beauty moment starts here.
+                </p>
+
+                <a href="#booking" class="btn btn-primary">
+                    Let's Get You Glowing ↗
+                </a>
+            </div>
+
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery section-padding" id="gallery">
+
+            <div class="section-heading">
+                <span class="eyebrow">A TOUCH OF INSPIRATION</span>
+                <h2>Beauty in every <span>detail.</span></h2>
+                <p>
+                    Explore a few looks to inspire your next appointment.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item gallery-large">
+                    <img
+                        src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=900&q=85"
+                        alt="Elegant manicure inspiration"
+                        loading="lazy">
+                    <span>Nail Art</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=700&q=80"
+                        alt="Creative nail design"
+                        loading="lazy">
+                    <span>Nail Designs</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80"
+                        alt="Hair styling inspiration"
+                        loading="lazy">
+                    <span>Hair Styling</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img
+                        src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=700&q=80"
+                        alt="Beauty inspiration"
+                        loading="lazy">
+                    <span>Beauty & Style</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Booking -->
+        <section class="booking section-padding" id="booking">
+
+            <div class="booking-container">
+
+                <div class="booking-intro">
+                    <span class="eyebrow">YOUR BEAUTY MOMENT AWAITS</span>
+
+                    <h2>Ready for your <span>glow-up?</span></h2>
+
+                    <p>
+                        Tell us what you'd love, choose your preferred date,
+                        and send us your appointment request.
+                    </p>
+
+                    <div class="booking-benefit">
+                        <span>♡</span>
+                        <div>
+                            <strong>Your style, your choice</strong>
+                            <p>Choose the beauty service you love.</p>
+                        </div>
+                    </div>
+
+                    <div class="booking-benefit">
+                        <span>✦</span>
+                        <div>
+                            <strong>Simple appointment requests</strong>
+                            <p>Send your details directly through WhatsApp.</p>
+                        </div>
+                    </div>
+
+                    <p class="booking-note">
+                        Appointments are requests until the studio confirms them.
+                    </p>
+                </div>
+
+                <form class="booking-form" id="bookingForm">
+
+                    <h3>Request an appointment</h3>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="customerName">Your name *</label>
+                            <input
+                                type="text"
+                                id="customerName"
+                                name="customerName"
+                                placeholder="Enter your name"
+                                required
+                                maxlength="80">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="customerPhone">Phone number *</label>
+                            <input
+                                type="tel"
+                                id="customerPhone"
+                                name="customerPhone"
+                                placeholder="e.g. 0712345678"
+                                required
+                                maxlength="20">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="serviceSelect">Choose a service *</label>
+                        <select id="serviceSelect" name="service" required>
+                            <option value="">Select a beauty service</option>
+                            <option value="Nails & Nail Art">Nails & Nail Art</option>
+                            <option value="Hair & Styling">Hair & Styling</option>
+                            <option value="Makeup & Beauty">Makeup & Beauty</option>
+                            <option value="Lashes & Brows">Lashes & Brows</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="appointmentDate">Preferred date *</label>
+                            <input
+                                type="date"
+                                id="appointmentDate"
+                                name="appointmentDate"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="appointmentTime">Preferred time *</label>
+                            <select id="appointmentTime" name="appointmentTime" required>
+                                <option value="">Choose a time</option>
+                                <option value="09:00 AM">09:00 AM</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="01:00 PM">01:00 PM</option>
+                                <option value="02:00 PM">02:00 PM</option>
+                                <option value="03:00 PM">03:00 PM</option>
+                                <option value="04:00 PM">04:00 PM</option>
+                                <option value="05:00 PM">05:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerMessage">
+                            Additional details (optional)
+                        </label>
+                        <textarea
+                            id="customerMessage"
+                            name="message"
+                            rows="3"
+                            maxlength="500"
+                            placeholder="Describe your preferred style or design..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary booking-submit">
+                        Send Booking Request via WhatsApp ↗
+                    </button>
+
+                    <p class="form-feedback" id="formFeedback" role="status"></p>
+
+                    <small class="form-disclaimer">
+                        Your request will open in WhatsApp for you to send.
+                        No appointment is confirmed automatically.
+                    </small>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- Final call to action -->
+        <section class="final-cta">
+            <span class="eyebrow">BEAUTY LOOKS GOOD ON YOU</span>
+            <h2>Your next glow-up starts here.</h2>
+            <a href="#booking" class="btn btn-light">
+                Book Your Beauty Moment ↗
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <a href="#home" class="logo footer-logo">
+                Zuri<span>Glow</span>
+                <small>BEAUTY STUDIO</small>
+            </a>
+
+            <p>Your Beauty, Your Glow.</p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#booking">Appointments</a>
+            </div>
+
+            <p class="copyright">
+                &copy; <span id="currentYear"></span> ZuriGlow Studio.
+                All rights reserved.
+            </p>
+
+            <p class="demo-notice">
+                Demonstration website. Business details, availability and images
+                must be verified before commercial use.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
